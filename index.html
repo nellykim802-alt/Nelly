@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nelly Ekim Business Portal</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f6f9;
+      color: #333;
+    }
+
+    header {
+      background: #1f4fff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background: #1f4fff;
+      color: white;
+      padding: 12px;
+      border: none;
+      width: 100%;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0f37d6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 12px;
+      color: gray;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>NELLY EKIM BUSINESS PORTAL</h1>
+  <p>Registration • Services • Support</p>
+</header>
+
+<div class="container">
+
+  <!-- CONTACT -->
+  <div class="card">
+    <h2>Contact Info</h2>
+    <p><b>Name:</b> Nelly Ekim</p>
+    <p><b>Phone:</b> 0706887527</p>
+  </div>
+
+  <!-- REGISTRATION -->
+  <div class="card">
+    <h2>Register Here</h2>
+
+    <input type="text" placeholder="Full Name">
+    <input type="text" placeholder="Phone Number">
+    <input type="email" placeholder="Email">
+    
+    <select>
+      <option>Select Service Type</option>
+      <option>Business Registration</option>
+      <option>Consultation</option>
+      <option>Investment Access</option>
+    </select>
+
+    <button onclick="alert('Registration submitted. Admin will contact you.')">
+      Submit Registration
+    </button>
+  </div>
+
+  <!-- PAYMENT -->
+  <div class="card">
+    <h2>Payment</h2>
+    <p>Complete your registration by paying the required fee.</p>
+
+    <!-- Replace link later with M-Pesa or Stripe -->
+    <a href="#" onclick="alert('Add M-Pesa or Stripe link here')">
+      <button>Pay Registration Fee</button>
+    </a>
+  </div>
+
+  <!-- FAQ -->
+  <div class="card">
+    <h2>FAQ</h2>
+
+    <p><b>What is this platform?</b><br>
+    A business registration and service portal.</p>
+
+    <p><b>How do I register?</b><br>
+    Fill the form and submit.</p>
+
+    <p><b>Is payment required?</b><br>
+    Some services require a small fee.</p>
+
+    <p><b>How will I be contacted?</b><br>
+    Via phone call or SMS.</p>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Nelly Ekim Business Portal
+</footer>
+
+</body>
+</html>
